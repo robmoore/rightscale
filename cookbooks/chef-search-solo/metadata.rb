@@ -1,7 +1,11 @@
-name             'chef-search-solo'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
-license          'All rights reserved'
-description      'Installs/Configures chef-search-solo'
+name             "chef-solo-search"
+maintainer       "edelight GmbH"
+maintainer_email "markus.korn@edelight.de"
+license          "Apache 2.0"
+description      "Data bag search for Chef Solo"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+version          "0.4.0"
+
+%w{ ubuntu debian redhat centos fedora freebsd}.each do |os|
+  supports os
+end

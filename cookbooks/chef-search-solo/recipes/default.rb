@@ -1,8 +1,2 @@
-#
-# Cookbook Name:: chef-search-solo
-# Recipe:: default
-#
-# Copyright 2013, YOUR_COMPANY_NAME
-#
-# All rights reserved - Do Not Redistribute
-#
+# This file is intentionally blank, which allows this
+# entire repository to be used as a cookbook
